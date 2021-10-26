@@ -1,0 +1,37 @@
+.head-list{
+    color: seagreen;
+    text-align: right;
+    display:flex; flex-wrap: wrap;
+    list-style: none;
+   }
+
+h1 {
+    color:red;
+    }
+
+body{
+    background-image:url(../../HTML&CSS/IMG/background-testin.png);
+    background-attachment: fixed;
+    }
+
+.contents-top-right{
+    background-color: royalblue;
+    float: right;
+    display: flex;
+
+    width: 33%;
+    }
+
+.contents-left {
+    background-color: salmon;
+    float: left;
+    display: block;
+    width: 33%;
+}
+
+.contents-bottom-right{
+    background-color: saddlebrown;
+    float: right;
+    display: flex;
+    width: 33%;
+}

@@ -1,0 +1,162 @@
+body, *{
+    background-attachment: fixed;
+    box-sizing: border-box;
+}
+   
+
+body { 
+    background-image:url(../../HTML&CSS/IMG/background-testin.png);
+    margin: 0;
+    padding: 0;
+}
+
+
+.Header{
+    background:yellowgreen ;
+    color: seagreen;
+    text-align: right;
+    height: 5vh;
+    width: 60vh;
+    
+}
+.head-list{
+    display:flex; 
+    list-style: none;
+   }
+
+h1 {
+    color:red;
+    }
+h2 {
+        text-align: center;
+}
+/* tryna change the link colour*/
+a {color: white;}
+a:hover {color: tomato;}
+
+.flex-wrapper-homepage {
+    border:1px solid red;
+    display: flex;
+    height: 80vh;
+    width: 90vw;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.display-box-homepage {
+    border: 1px dashed black;
+    text-align: center;
+    flex: 0 1 50%;
+}
+#Home-Page-Right{
+    background:yellowgreen ;
+}
+
+.Home-Page-Button {
+    margin: 10vh;
+}
+
+.flex-wrapper-Computational_Thinking{
+    border:1px solid red;
+    display: flex;
+    height: 70vh;
+    width: 90vw;
+    margin: auto;
+    justify-content: center; /* trying to center the the display boxes in the box */
+    flex-wrap: wrap;
+}
+.display-box-Computational-Thinking{
+    border: 1px dashed black;
+    text-align: left;
+    flex: 0 1 40%;
+}
+
+#Computational-Thinking-Center{
+    flex: 0 0 5%;
+}
+#CompThinkingFooter{
+    
+}
+
+.flex-wrapper-TimBerners-Lee {
+    border:1px solid red;
+    display: flex;
+    height: 80vh;
+    width: 90vw;
+    margin: auto;
+    flex-wrap: wrap;
+
+}
+
+.display-box-TimBerners-Lee{
+    border: 1px dashed black;
+    text-align: left;
+    flex: 0 1 40%;
+}
+
+#TBL-IMAGE{
+    flex: 0 1 20%;
+    
+}
+
+#LastingInfluence {
+    width: 100%;
+    flex:initial;
+   
+   
+}
+
+footer {
+    background: black;
+    color: thistle;
+    padding: 1vh;
+    margin-bottom: 0;
+    
+}
+
+.flex-wrapper-footer {
+    border:1px solid red;
+    display: flex;
+    flex-wrap: wrap;
+}
+.display-box-footer {
+    border: 1px dashed white;
+    text-align: left;
+    flex: 0 0 50%;
+}
+
+#display-box-footer-right {
+    text-align: right;
+}
+
+.flex-wrapper-WhatIHaveLearnt{
+    border:1px solid red;
+    display: flex;
+    height: 80vh;
+    width: 90vw;
+    margin: auto;
+    justify-content: center;
+   
+    flex-wrap: wrap;
+}
+.display-box-WhatIHaveLearnt{
+    border: 1px dashed black;
+    text-align: center;
+    flex: 0 1 70%;
+}
+#WhatIHaveLearntIMGSection{
+    flex: 30%;
+    display: flex;
+    flex-direction: column;
+    border: 1px dashed black;
+    margin: auto; 
+
+   
+    
+}
+
+#WhatIhavelearntIMG{
+    border: 1px dashed black;
+
+}
